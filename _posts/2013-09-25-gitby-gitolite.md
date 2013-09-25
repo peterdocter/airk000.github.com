@@ -138,16 +138,15 @@ ssh可用于远程登录，服务端需要安装openssh-server，客户端需要
 如：
 
     @admin = git userA
-     
     repo gitolite-admin
         RW+      =    @admin
      
     repo testing
         RW+      =    git
         RW       =    @all
-@admin用户组有两个用户git userA，分别对应keydir下的git.pub, userA.pub。
+admin用户组有两个用户git userA，分别对应keydir下的git.pub, userA.pub。
 
-- gitolite-admin仓储的读/写/强制更新权限 只有@admin用户组拥有；
+- gitolite-admin仓储的读/写/强制更新权限 只有admin用户组拥有；
 - testing仓储的读/写/强制更新权限只有git用户拥有，其他所有在keydir下存在公钥的用户享有读/写权限。
 
 ###8.权限配置
