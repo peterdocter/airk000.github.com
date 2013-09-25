@@ -2,8 +2,8 @@
 layout: post
 title: "BeagleBone Black刷机"
 description: ""
-category: ""
-tags: []
+category: "BeagleBone Black"
+tags: [BBB]
 ---
 {% include JB/setup %}
 
