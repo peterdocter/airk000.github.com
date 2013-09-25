@@ -20,7 +20,17 @@ tagline:
 </div>
 
 ##About ME
-
-    E-mail: airk908@gmail.com
-    Github: github.com/airk000
-    Twitter\Weibo\Google+ All airk000
+<footer>
+    <li>
+        <a href="http://github.com/airk000">Github</a>
+    </li>
+    <li>
+        <a href="http://weibo.com/airk000">Weibo</a>
+    </li>
+    <li>
+        <a href="https://plus.google.com/115315602279381976098">Google+</a>
+    </li>
+    <li>
+        <a >E-mail: airk908@gmail.com</a>
+    </li>
+</footer>
