@@ -46,7 +46,7 @@ BBB系统更新
 - 按住User button，同时插入电源，直到User LEDs开始闪烁
 - 等待稍许，待User LEDs全部亮起，代表系统更新完成
 
-![BeagleboneBlack](https://raw.github.com/airk000/airk000.github.com/master/images/CONN_REVA5A.jpg)
+![BeagleboneBlack](https://raw.github.com/airk000/airk000.github.com/master/images/beaglebone/CONN_REVA5A.jpg)
 
 
 ###常见问题
