@@ -290,5 +290,5 @@ gitolite会直接创建新的仓储。
 同删除操作的步骤。
 
 ###10.mirror操作
-http://gitolite.com/gitolite/mirroring.html
+<http://gitolite.com/gitolite/mirroring.html>
 

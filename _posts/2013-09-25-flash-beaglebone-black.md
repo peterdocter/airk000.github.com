@@ -16,16 +16,16 @@ BBB系统更新
 - 至少5V1A的DC电源（USB插口也可）
 - 能够刷入的img包
 - 7zip解压软件（http://www.7-zip.org/） Linux系统可以用xz命令解压 .xz文件
-- Win32DiskImager （http://sourceforge.net/projects/win32diskimager/） Linux系统可以用usb-imagewritter
+- Win32DiskImager （<http://sourceforge.net/projects/win32diskimager/>） Linux系统可以用usb-imagewritter
 
 
 ###寻找合适的系统更新
 
-http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black
+<http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black>
 > 我所采用的 
-https://rcn-ee.net/deb/flasher/raring/BBB-eMMC-flasher-ubuntu-13.04-2013-08-24.img.xz
+ \<https://rcn-ee.net/deb/flasher/raring/BBB-eMMC-flasher-ubuntu-13.04-2013-08-24.img.xz>
 
-http://circuitco.com/support/index.php?title=Updating_The_Software
+<http://circuitco.com/support/index.php?title=Updating_The_Software>
 > 据老外说这个已经outdate了，不过很多东西还是很经典的
 
 ###制作SDCard
