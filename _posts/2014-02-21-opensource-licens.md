@@ -2,7 +2,7 @@
 layout: post
 title: "开源协议选择鉴别"
 description: ""
-category: ""
+category: "open source"
 tags: [opensource]
 ---
 {% include JB/setup %}

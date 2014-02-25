@@ -2,7 +2,7 @@
 layout: post
 title: "Git仓储权限管理by gitolite"
 description: ""
-category: "Git"
+category: "git"
 tags: [git]
 ---
 {% include JB/setup %}

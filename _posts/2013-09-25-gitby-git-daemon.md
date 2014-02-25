@@ -2,7 +2,7 @@
 layout: post
 title: "Git服务器搭建by git-daemon"
 description: ""
-category: "Git"
+category: "git"
 tags: [git]
 ---
 {% include JB/setup %}

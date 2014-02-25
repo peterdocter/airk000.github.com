@@ -2,7 +2,7 @@
 layout: post
 title: "带GPG签名的Git tag"
 description: ""
-category: "Git"
+category: "git"
 tags: [git]
 ---
 {% include JB/setup %}
