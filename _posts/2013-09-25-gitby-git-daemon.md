@@ -5,7 +5,6 @@ description: ""
 category: "git"
 tags: [git]
 ---
-{% include JB/setup %}
 
 使用git-daemon进行git服务器搭建
 ===

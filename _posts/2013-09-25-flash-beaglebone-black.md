@@ -5,7 +5,6 @@ description: ""
 category: "BeagleBone Black"
 tags: [BBB]
 ---
-{% include JB/setup %}
 
 BBB系统更新
 ====

@@ -5,7 +5,6 @@ description: ""
 category: "android"
 tags: [android]
 ---
-{% include JB/setup %}
 
 Android关机闹钟在高通平台实现方案
 ===

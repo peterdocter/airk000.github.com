@@ -5,7 +5,6 @@ description: ""
 category: "linux kernel"
 tags: [linux kernel]
 ---
-{% include JB/setup %}
 
 Device Tree常用方法解析
 ===

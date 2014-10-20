@@ -5,7 +5,6 @@ description: ""
 category: "open source"
 tags: [opensource]
 ---
-{% include JB/setup %}
 
 开源协议最简单选择/鉴别方法
 ===

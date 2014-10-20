@@ -5,7 +5,6 @@ description: ""
 category: "git"
 tags: [git]
 ---
-{% include JB/setup %}
 
 使用gitolite对git仓储进行权限配置
 ====

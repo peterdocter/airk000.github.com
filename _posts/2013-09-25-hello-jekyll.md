@@ -5,7 +5,6 @@ description: ""
 category: "jekyll"
 tags: [Jekyll]
 ---
-{% include JB/setup %}
 
 
 Hello, Jekyll!

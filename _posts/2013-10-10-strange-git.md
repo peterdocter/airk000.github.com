@@ -5,7 +5,6 @@ description: ""
 category: "git"
 tags: [git]
 ---
-{% include JB/setup %}
 
 Git生词本
 ====
