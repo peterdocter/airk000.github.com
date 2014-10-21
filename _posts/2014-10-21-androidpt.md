@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "pt单位在开发中的应用"
-description: "pt to sp"
+description: "Android开发过程中如何使用设计稿中的pt单位。"
 category: "Android开发便签"
 tags: [Android]
 ---
