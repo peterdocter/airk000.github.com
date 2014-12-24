@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "new post"
+title: "Activity LaunchMode"
 description: "Android应用中Activity的四种launchMode说明"
 category: "Android开发便签"
 tags: [Android]
