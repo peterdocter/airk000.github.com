@@ -81,3 +81,8 @@ tags: [Android]
 ###最后的提醒
 
 请一定记住，以上说明的这些状态拥有优先级，所以在XML的书写过程中请注意他们的定义先后顺序，通常情况下，android:drawable（也就是默认状态）需要写在最后，前面也说过了，至少要有个撑场的嘛。
+
+#####相关
+
+http://stackoverflow.com/questions/11504860/what-is-the-difference-between-the-states-selected-checked-and-activated-in-and
+https://developer.android.com/intl/zh-cn/guide/topics/resources/drawable-resource.html
