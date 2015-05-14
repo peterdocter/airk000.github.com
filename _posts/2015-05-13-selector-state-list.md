@@ -13,9 +13,9 @@ tags: [Android]
 
 ###Selector的基本语法
 
-```
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android"
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<selector xmlns:android="http://schemas.android.com/apk/res/android"
     android:constantSize=["true" | "false"]
     android:dither=["true" | "false"]
     android:variablePadding=["true" | "false"] >
@@ -30,8 +30,8 @@ tags: [Android]
         android:state_enabled=["true" | "false"]
         android:state_activated=["true" | "false"]
         android:state_window_focused=["true" | "false"] />
-</selector>
-```
+	</selector>
+
 
 #####根属性
 
@@ -57,24 +57,24 @@ tags: [Android]
 - `android:state_enabled` true代表当作用对象处于`可用`的状态，false即不可用。
 - `android:state_activated` **API11引入了这个状态**true代表作用对象处于`活跃`的状态，进一步说是处于持续存在的被选中状态中，比如列表中高亮显示上一次选中的内容。false则代表非活跃的状态。关于这个状态，在AbsListVuew中对于内容item选中状态的处理有所提及：
 
-	```
-    private void updateOnScreenCheckedViews() {
-        final int firstPos = mFirstPosition;
-        final int count = getChildCount();
-        final boolean useActivated = getContext().getApplicationInfo().targetSdkVersion
-                >= android.os.Build.VERSION_CODES.HONEYCOMB;
-        for (int i = 0; i < count; i++) {
-            final View child = getChildAt(i);
-            final int position = firstPos + i;
 
-            if (child instanceof Checkable) {
-                ((Checkable) child).setChecked(mCheckStates.get(position));
-            } else if (useActivated) {
-                child.setActivated(mCheckStates.get(position));
-            }
-        }
-    }
-	```
+		private void updateOnScreenCheckedViews() {
+        	final int firstPos = mFirstPosition;
+        	final int count = getChildCount();
+        	final boolean useActivated = getContext().getApplicationInfo().targetSdkVersion
+            	    >= android.os.Build.VERSION_CODES.HONEYCOMB;
+        	for (int i = 0; i < count; i++) {
+            	final View child = getChildAt(i);
+            	final int position = firstPos + i;
+            	if (child instanceof Checkable) {
+                	((Checkable) child).setChecked(mCheckStates.get(position));
+            	} else if (useActivated) {
+                	child.setActivated(mCheckStates.get(position));
+            	}
+        	}
+    	}
+	
+	
 	可以看出，activated状态与checked状态平行，如果item声明了Checkable接口，则当更新内容item时将优先走Checkable所提供的接口，否则的话当应用的TargetAPI为11以上时，将设置item的activated状态。所以，显而易见的，checked状态比activated状态的优先级要高。
 - `android:state_window_focused` true代表当所作用对象所处的应用的window拥有焦点时（也就是说应用处于`前台可视状态`）的状态。false则代表所处应用失去焦点后的状态。举个例子，加入你的应用有全局类型的Dialog对话框，其中的某个view使用selector，如果你需要区分所处应用是否处于前台而给view赋予不同的外观时，这个状态正是你需要的了。
 
